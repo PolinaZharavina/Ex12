@@ -1,6 +1,7 @@
-// Copyright 2021 GHA Test Team
+// Copyright 2021 PollyllyZh
 #include "TimedDoor.h"
 #include <iostream>
+#include <ctime>
 
 int main() {
   TimedDoor tDoor(5);
