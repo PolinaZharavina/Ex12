@@ -1,5 +1,4 @@
 // Copyright 2021 PollyllyZh
-
 #include<string>
 #include <ctime>
 #include "TimedDoor.h"

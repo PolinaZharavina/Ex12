@@ -1,15 +1,18 @@
 // Copyright 2021 PollyllyZh
 
 #ifndef INCLUDE_TIMEDDOOR_H_
+
 #define INCLUDE_TIMEDDOOR_H_
 
 class DoorTimerAdapter;
 class Timer;
 class Door;
 class TimedDoor;
+
 class TimerClient {
  public:
   virtual void Timeout() = 0;
+
 };
 
 class Door {
@@ -46,8 +49,8 @@ class TimedDoor : public Door {
 class Timer {
   TimerClient* client;
   void sleep(int);
-
  public:
   void tregister(int, TimerClient*);
 };
+
 #endif  // INCLUDE_TIMEDDOOR_H_
