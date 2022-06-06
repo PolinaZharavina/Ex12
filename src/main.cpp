@@ -3,7 +3,7 @@
 #include <iostream>
 
 int main() {
-  TimedDoor tDoor(5);
+  TimedDoor tDoor(6);
   tDoor.lock();
   tDoor.unlock();
 
